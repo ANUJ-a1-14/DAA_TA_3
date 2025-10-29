@@ -1,4 +1,4 @@
-class longestIncrSubsqnc{
+class Problem1{
     public static int lis(int[] arr){
         int n = arr.length;
         int[] dp = new int[n];
