@@ -1,3 +1,18 @@
+/*
+Real Life Use Case of Multistage Graph (Shortest Path):
+
+Flight ticket booking with layovers:
+Each airport is a stage. Each flight has a cost.
+We want the cheapest route from the first airport to the final destination.
+
+Similar applications:
+- Manufacturing pipeline steps (choosing cheapest machines in sequence)
+- Task planning where tasks are divided in ordered phases
+- Routing in communication networks where data must pass through fixed stages
+
+The algorithm works backward from the destination computing minimum cost to reach the end from each node.
+*/
+
 import java.util.*;
 
 public class Problem3 {

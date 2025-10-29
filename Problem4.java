@@ -1,3 +1,24 @@
+/* 
+Real-Life Use Case:
+-------------------
+This algorithm is used in navigation and routing systems.
+
+Example:
+Imagine a delivery robot moving in a warehouse grid.
+Each cell has a cost (time, energy, or difficulty to cross).
+The robot must move from the entrance (top-left) to the exit (bottom-right),
+but it can only move RIGHT or DOWN due to fixed aisle directions.
+
+The DP algorithm finds the minimum total cost route, ensuring:
+- The robot uses the least energy
+- The path is efficient and optimal
+
+This same concept applies to:
+- Google Maps shortest walking/driving path in restricted zones
+- Pipeline routing in factories
+- Minimizing travel time in grid-based city layouts
+*/
+
 public class Problem4 {
     public static int findMinSum(int[][] grid) {
         int m = grid.length, n = grid[0].length;

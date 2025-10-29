@@ -1,3 +1,18 @@
+/*
+Real Life Use Case of Longest Divisible Subset (LDS):
+An example is deciding packet sizes in networking or warehouse box stacking:
+
+Example:
+If box sizes are: 1, 4, 8, 16
+We want to choose sizes such that each larger box can perfectly contain the smaller one.
+Longest divisible subset: 1 → 4 → 8 → 16
+
+So this algorithm is useful in:
+- Selecting compatible container/packet sizes
+- Grouping tasks or resources where one must fully depend on another
+- Any system where “one must be a multiple of the other” relationship is required
+*/
+
 import java.util.*;
 
 public class Problem2 {
